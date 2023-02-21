@@ -1,17 +1,9 @@
-#include <unistd.h>
-
+#include "main.h"
 
 /**
   * main - loops through character array
-  *
-  * _putchar - writes character c to standard output
   * Return: returns 0
   */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
-
 int main(void)
 {
 	char p[] = "_putchar\n";
