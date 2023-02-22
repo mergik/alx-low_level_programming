@@ -1,11 +1,16 @@
 #include "main.h"
 
 /**
- * main - calls print_alphabet function
- * Return: returns 0
- */
-int main(void)
+  * print_alphabet - prints alphabets followed by a new line
+  */
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char letter = 'a';
+
+	while (letter <= 'z')
+	{
+		_putchar(letter);
+		letter++;
+	}
+	_putchar('\n');
 }
