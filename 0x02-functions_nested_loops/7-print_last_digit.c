@@ -3,8 +3,8 @@
 /**
   * print_last_digit - prints last digit
   * @n: integer to be checked
-   Return: returns last digit
-   */
+  * Return: returns last digit
+  */
 int print_last_digit(int n)
 {
 	int last_digit;
