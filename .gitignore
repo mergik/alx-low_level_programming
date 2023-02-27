@@ -1,0 +1,4 @@
+*.out
+_putchar.c
+main.c
+*main.c
