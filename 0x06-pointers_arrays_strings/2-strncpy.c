@@ -16,7 +16,7 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[i] = src[i];
 	}
 
-	/* If we copied fewer than n characters */ 
+	/* If we copied fewer than n characters */
 	/* pad the rest of the destination string with null bytes */
 	while (i < n)
 	{
