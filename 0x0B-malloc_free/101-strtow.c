@@ -38,11 +38,9 @@ char **strtow(char *str)
 
 	if (str == NULL || *str == '\0')
 		return (NULL);
-
 	words = count_words(str);
 	if (words == 0)
 		return (NULL);
-
 	matrix = malloc(sizeof(char *) * (words + 1));
 	if (matrix == NULL)
 		return (NULL);
@@ -56,7 +54,6 @@ char **strtow(char *str)
 			w = 0;
 			while (str[w] != ' ' && str[w] != '\0')
 				w++;
-
 			matrix[index] = malloc(sizeof(char) * (w + 1));
 			if (matrix[index] == NULL)
 			{
@@ -66,22 +63,12 @@ char **strtow(char *str)
 				free(matrix);
 				return (NULL);
 			}
-
 			for (letters = 0; letters < w; letters++)
 				matrix[index][letters] = *str++;
 
 			matrix[index++][letters] = '\0';
 		}
 	}
-
 	matrix[index] = NULL;
-
 	return (matrix);
 }
-
-
-
-
-
-
-
