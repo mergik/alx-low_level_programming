@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 
 	div = cents / 1;
 	num_coins += div; /* number of 1 cents coins */
-	printf("Total: %d\n", num_coins);
+	printf("%d\n", num_coins);
 	return (0);
 }
 
