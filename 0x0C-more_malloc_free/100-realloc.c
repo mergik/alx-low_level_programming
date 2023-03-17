@@ -10,7 +10,7 @@
  * If new_size > old_size, the “added” memory should not be initialized
  * If new_size == old_size do not do anything and return ptr
  * If ptr is NULL, then the call is equivalent to malloc(new_size)
- * If new_size is equal to zero, and ptr is not NULL, then the call is equivalent to free(ptr)
+ * If new_size =  zero, and ptr isn't NULL, the call is equivalent to free(ptr)
  * If malloc fails, return NULL
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
