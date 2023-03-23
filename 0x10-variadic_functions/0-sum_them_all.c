@@ -1,11 +1,14 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - returns the sum of all it's parameters.
- * @n: number of arguments passed
- * @...: The variadic arguments passed
- * Return: Sum of all parameters or 0 if n == 0
-*/
+ * sum_them_all - Returns the sum of all its parameters.
+ *
+ * @n: The number of arguments passed.
+ * @...: The variadic arguments passed.
+ *
+ * Return: The sum of all the parameters.
+ *         If n == 0, returns 0.
+ */
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list args;
