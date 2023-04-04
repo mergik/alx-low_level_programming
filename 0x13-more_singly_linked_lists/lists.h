@@ -1,6 +1,9 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+/* HEADER FILES */
+#include <stddef.h>
+
 /* DATA STRUCTURES */
 /**
  * struct listint_s - singly linked list
