@@ -8,11 +8,8 @@
   */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	switch (index >= sizeof(unsigned long int) * 8)
-	{
-		case 1:
-			return (-1);
-		case 2:
-			return ((n >> index) & 1);
-	}
+	if (index >= sizeof(unsigned long int) * 8)
+		return (-1);
+
+	return ((n >> index) & 1);
 }
