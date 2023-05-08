@@ -34,7 +34,9 @@ int main(int argc, char *argv[])
 	if (file_from == -1)
 		error_exit(98, "Error: Can't read from file %s\n", argv[1]);
 
-	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
+	file_to = open(argv[2],
+			O_CREAT | O_WRONLY | O_TRUNC,
+			S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
 	if (file_to == -1)
 		error_exit(99, "Error: Can't write to %s\n", argv[2]);
 
