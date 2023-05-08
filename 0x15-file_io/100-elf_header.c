@@ -62,7 +62,7 @@ void printELFHeaderInfo(Elf32_Ehdr ehdr)
 			printf("<unknown: %d>\n", ehdr.e_ident[EI_DATA]);
 	}
 
-	printf("  Version:                           %d\n", ehdr.e_ident[EI_VERSION]);
+	printf("  Version:                           %d (current)\n", ehdr.e_ident[EI_VERSION]);
 
 	printf("  OS/ABI:                            ");
 	switch (ehdr.e_ident[EI_OSABI])
@@ -137,7 +137,7 @@ void printELFHeaderInfo(Elf32_Ehdr ehdr)
 			printf("<unknown: %d>\n", ehdr.e_type);
 	}
 
-	printf("  Entry point address:               %08x\n", ehdr.e_entry);
+	printf("  Entry point address:               %#x\n", ehdr.e_entry);
 }
 
 /**
