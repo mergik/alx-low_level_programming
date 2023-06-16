@@ -2,8 +2,6 @@
 
 | File Name | Description     |
 | ------------ | ------------    |
-| File Name                 | Description                                                             |
-|---------------------------|-------------------------------------------------------------------------|
 | `0-print_dlistint.c`      | Prints all elements of a doubly linked list.                             |
 | `1-dlistint_len.c`        | Returns the number of elements in a doubly linked list.                  |
 | `2-add_dnodeint.c`        | Adds a new node at the beginning of a doubly linked list.                |
