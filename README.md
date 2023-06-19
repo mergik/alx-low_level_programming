@@ -25,3 +25,4 @@ The following is a list of the projects contained in this repository, along with
 | `0x14-bit_manipulation` | Bitwise operations and bit manipulation |
 | `0x15-file_io` | Input/output operations with files in C |
 | `0x17-doubly_linked_lists` | Introduction to doubly linked lists |
+| `0x18-dynamic_libraries` | Dynamic and static libraries |
