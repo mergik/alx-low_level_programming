@@ -2,5 +2,7 @@
 _putchar.c
 main.c
 *main.c
-*list*
+create_list.c
+free_list.c
+print_list.c
 .vscode
