@@ -2,6 +2,8 @@
 
 | File Name | Description     |
 | ------------ | ------------    |
+| `lists.h`    | Header file containing the prototypes for all functions in the project. |
+| `ispalindrome.py` | Function that checks if a singly linked list is a palindrome. |
 | `0-print_dlistint.c`      | Prints all elements of a doubly linked list.                             |
 | `1-dlistint_len.c`        | Returns the number of elements in a doubly linked list.                  |
 | `2-add_dnodeint.c`        | Adds a new node at the beginning of a doubly linked list.                |
@@ -11,4 +13,5 @@
 | `6-sum_dlistint.c`        | Computes the sum of all the data in a doubly linked list.                |
 | `7-insert_dnodeint.c`     | Inserts a new node at a given position in a doubly linked list.          |
 | `8-delete_dnodeint.c`     | Deletes a node at a given position in a doubly linked list.              |
-
+| ------------ | ------------    |
+| `102-result` | The largest palindrome made from the product of two 3-digit numbers. |
