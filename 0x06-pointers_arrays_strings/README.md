@@ -1,4 +1,4 @@
-0x06. C - Pointers, arrays and strings
+## 0x06. C - Pointers, arrays and strings
 
 | Filename | Description |
 | -------- | ----------- |
